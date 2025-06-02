@@ -1,0 +1,80 @@
+/*
+body, section, img, h2, p, h3
+Class: card, card_sedans, button_box, button, card_suvs, card_luxury
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-color: bisque;
+  height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+section {
+  display: flex;
+  width: 50%;
+  /* border-radius: 8px; */
+}
+img {
+  width: 64px;
+  height: 40px;
+}
+.card {
+  padding: 24px 74px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+h2 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.card_sedans {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background-color: hsl(31, 77%, 52%);
+}
+.card_suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+.card_luxury {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: hsl(179, 100%, 13%);
+}
+.button_box {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.button {
+  color: black;
+  background-color: hsl(0, 0%, 95%);
+  display: inline-flex;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.button_sedans {
+  color: hsl(31, 77%, 52%);
+}
+.button_suvs {
+  color: hsl(184, 100%, 22%);
+}
+.button_luxury {
+  color: hsl(179, 100%, 13%);
+}
